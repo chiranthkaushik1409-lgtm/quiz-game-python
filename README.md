@@ -4,13 +4,14 @@ A command-line quiz game built in Python.
 Features randomized questions, duplicate prevention, and a live scoreboard.
 
 ## Features
-- Multiple choice and direct answer questions
+- Direct answer questions with support for multiple valid answers
 - Random question selection using random module
 - Duplicate prevention — same question never repeats in one session
 - Accepts multiple valid answers where applicable
 - Live scoreboard after every round
 - Final scoreboard displayed automatically after all questions are answered
-- Type 2 anytime to exit
+- Exit option available from the main menu
+- Question progress tracking (Questions Answered)
 
 ## Concepts Used
 - Dictionary to store questions and answers
@@ -20,6 +21,7 @@ Features randomized questions, duplicate prevention, and a live scoreboard.
 - While loop for game loop
 - Score tracking with variables
 - Input normalization using lower()
+- Conditional statements (if-elif-else)
 
 ## How to Run
 1. Make sure Python is installed on your system
